@@ -1,0 +1,34 @@
+footer{
+	background: #47526c;
+}
+.shadow{
+	    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.08), 0 3px 6px rgba(0, 0, 0, 0.15);
+    overflow: auto;
+}
+.header {
+    background: #ffffff;
+    /* border: #374054 2px solid; */
+}
+div{
+
+    display: block;
+}
+body{
+	    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #fff;
+}
+*{
+box-sizing: border-box;
+}
+
+.container{
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+
