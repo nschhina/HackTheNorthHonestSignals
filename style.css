@@ -7,18 +7,17 @@ footer{
 }
 .header {
     background: #ffffff;
-    /* border: #374054 2px solid; */
+
 }
 div{
 
     display: block;
 }
-body{
-	    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+#body{font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 14px;
     line-height: 1.42857143;
     color: #333;
-    background-color: #fff;
+    background-color: #f2f2f5;
 }
 *{
 box-sizing: border-box;
@@ -29,9 +28,23 @@ box-sizing: border-box;
 	padding-left: 15px;
 	margin-right: auto;
 	margin-left: auto;
+
 }
 #heading{
 text-align: center;
-
+font-family: arvo;
+color:#374054;
+}
+#bq{
+	border-left: 4px solid #426db2;
+    margin-left: 10px;
+    padding: 10px 20px;
+    margin: 20px;
+    font-size: 17.5px;
 }
 
+#subutton{
+	color: #fff;
+    background-color: #f0ad4e;
+    border-color: #eea236;
+}
