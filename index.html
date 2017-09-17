@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Honests Signals</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>Voirate</title>
+	<link rel="stylesheet" type="text/css" href="./css/style.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
 <link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
@@ -18,7 +18,7 @@
 	<div class="container">
 	<div class="header shadow">
 	<br>
-	<h2 id="heading">Honest Signals</h2>
+	<h2 id="heading">Voirate</h2>
 	<!-- Import Hello World image -->
 	<img id="hw" src="helloworld.png">
 	<br>
@@ -27,21 +27,20 @@
 	<blockquote id="bq"> Grade your presentations and get tips here!</blockquote>
 	<br>
 	<div id="subpane">
+	<form enctype="multipart/form-data" action="save_file.py" method="post">
 	<button class="btn btn-primary custombtn" id="subutton">
-		<label class="btn btn-default">
-    Select PDF <input type="file" hidden></label>
-	</button>
+    <input type="file" name="hi" class="inputfile" id="file" />
+    <label for="file">Choose a File</label></button>
 	<button class="btn btn-primary custombtn" id="subutton">
-		<label class="btn btn-default">
-    Upload PDF <input type="file" hidden></label>
+
+    <input type="submit" value="" class="inputfile" id="file"/><label for="file">Upload</label>
 	</button>
+</form>
 	<div>
 	<br>
 	<br>
-
-
         </div>
-    </div>   
+    </div>
 		</div>
 		</div>
 	</div>
