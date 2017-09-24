@@ -1,4 +1,4 @@
-Voirate
+# Voirate
 
 This is an incomplete Hack the North 2017 project. Our initial idea was to create a web app which could help people perfect their presentation skills. In a perfect world, our app would have taken a presentation support file (PowerPoint, PDF), and, once the user would have been ready, would have started recording the presentation's audio content. The audio file would have then been processed by our python code using mathematical and statistical analysis of the peaks and creases in the soundwaves. These very specific and noticeable signs, which our called honest signals, can be used to determine how well a person is doing in a public speaking context.
 
