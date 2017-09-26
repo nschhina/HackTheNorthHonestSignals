@@ -10,4 +10,4 @@ and let the magic happen. The code will return 3 values: Clarity (which evaluate
 
 The problems that lead to the demise of the full project were related to backend and frontend link. None of us were qualified to undertake the challenges offered by the project, and were therefore left disappointed once we understood that our project probably wouldn't come to life.
 
-Regardless, we had fun, and are all happy to have met one another this weekend. We'd like to thank the entire organizational team. This was an amazing event that we'll definitely recommend to our friends in the future.
+Regardless, we had fun, and are all happy to have met one another this weekend. We'd like to thank the entire organizational team.
